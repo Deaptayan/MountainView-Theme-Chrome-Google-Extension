@@ -42,6 +42,10 @@ document.getElementById("twitterButton").addEventListener("click", function() {
     window.location.href="https://x.com";
 })
 
+document.getElementById("instagramButton").addEventListener("click", function() {
+    window.location.href="https://www.instagram.com";
+})
+
 document.getElementById("discordButton").addEventListener("click", function() {
     window.location.href="https://discord.com";
 })
