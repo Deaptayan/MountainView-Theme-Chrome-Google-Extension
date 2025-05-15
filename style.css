@@ -1,0 +1,365 @@
+body{
+    overflow:hidden;
+}
+
+.bg-image{
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    color: #fffcfc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 100px;
+    font-family: 'Product Sans', 'Google Sans', Arial, Helvetica, sans-serif;
+    left: 43%;
+}
+
+h1:hover{
+   transform: scaleX(1.02);
+   transition: ease-in-out 0.3s;
+}
+
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.search{
+    width: 30%;
+    height: 35px;
+    background-color: rgba(240, 248, 255, 0.725);
+    border: 1px solid rgba(240, 248, 255, 0.725);
+    color: black;
+    font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    outline: none;
+    border-radius: 12px;
+}
+
+.search:hover{
+    background-color: rgba(240, 248, 255, 0.9);
+    transition: ease-in-out 0.2s;
+    transform: scale(1.03);
+}
+
+.searchbtn{
+    width: 3%;
+    height: 30px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid rgba(240, 248, 255, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-icon{
+    font-size: 20px;
+    color: #fffcfc;
+}
+
+#search-icon:hover {
+    background: linear-gradient(45deg, #4285F4, #F4B400, #0F9D58, #DB4437);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.2);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 415px;
+    left: 505px;
+    gap: 10px;
+    background: #00000070;
+    padding: 10px;
+    border: solid 1px #00000070;
+    border-radius: 12px;
+}
+
+.inside-button-background{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.inside-button-background2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#youtubeButton:hover{
+    background-color: red;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+#gmailButton:hover{
+    background: linear-gradient(45deg, #4285F4, #EA4335, #34A853, #FBBC04);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+#whatsappButton:hover{
+    background-color: #075E54;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+#telegramButton:hover{
+    background-color: #24A1DE;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+#instagramButton:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+#twitterButton:hover{
+    background-color: #3777a1;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+#discordButton:hover{
+    background-color: #5865F2;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+#githubButton:hover{
+    background-color: #000000;
+    transition: ease-in-out 0.3s;
+    transform: scale(1.05);
+}
+
+#youtube{
+    font-size: 30px;
+    color: #fffcfc;
+}
+
+#gmail{
+    font-size: 30px;
+    color: #fffcfc;
+}
+
+#whatsapp{
+    font-size: 30px;
+    color: #fffcfc;
+}
+
+#telegram{
+    font-size: 30px;
+    color: #fffcfc;
+}
+
+#instagram{
+    font-size: 30px;
+    color: #fffcfc;
+}
+
+#twitter{
+    font-size: 30px;
+    color: #fffcfc;
+}
+
+#discord{
+    font-size: 30px;
+    color: #fffcfc;
+}
+
+#github{
+    font-size: 30px;
+    color: #fffcfc;
+}
+
+.individualbtnyou{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 90px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b588600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.individualbtngmail{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 90px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b588600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.individualbtnwhats{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 90px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b588600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.individualbtntele{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 90px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b588600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.individualbtninsta{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 90px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b588600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.individualbtntwitter{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 90px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b588600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.individualbtndiscord{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 90px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b588600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.individualbtngithub{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 90px;
+    height: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: #1b588600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clock {
+    font-size: 48px;
+    font-family: "Orbitron", "Segoe UI", "Arial", monospace;
+    font-weight: 200;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 50px;
+    background-color: #00000070;
+}
+
+.clock:hover{
+    color: #00000070;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.1);
+}
+
+#digitalClock{
+    font-size: 48px;
+    font-family: "Orbitron", "Segoe UI", "Arial", monospace;
+    font-weight: 200;
+    position: absolute;
+    top: -50px;
+    right: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#digitalClock:hover{
+    background-clip: text; /* For Firefox */
+    color: white;
+    transition: ease-in-out 0.2s;
+    transform: scale(1.2);
+}
+
+.githubdev{
+    size: 60px;
+    border-radius: 20px;
+    border: solid 0 #1b588600;
+    width: 10px;
+    height: 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: #01010100;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}

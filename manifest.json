@@ -1,0 +1,16 @@
+{
+    "name": "MountainView-Theme-Chrome-Google-Extension",
+    "author": "Deaptayan Bondopadhay",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "To change The Theme Of the Chrome Browser",
+    "icons": {
+        "128": "logo.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
