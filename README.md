@@ -29,7 +29,10 @@ This extension is completely **free and open-source**.
 The new tab page will now be replaced with the **MountainView Theme**.
 
 ---
-Screenshots:
+**Screenshots:**
 
-![Screenshot](./Screenshot%202025-05-15%20150612.png)
+![Screenshot 2025-05-15 150245](https://github.com/user-attachments/assets/e8be8959-22c9-4433-b8ed-bb6f783fff36)
 
+
+
+![Screenshot 2025-05-15 150612](https://github.com/user-attachments/assets/94df1839-3018-4541-8490-52570dd30485)
